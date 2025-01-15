@@ -1,0 +1,63 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/image"
+
+        <TextView
+            android:id="@+id/productName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="[Madeline Bag] BOSTANTEN BAG 3 IN 1  WANITA Slingbag"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/HARGAPRODUK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rp.150.00"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/holo_red_dark" />
+
+        <TextView
+            android:id="@+id/productDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selamat datang di toko Bostanten, di mana kami akan berusaha untuk menyediakan produk yang memenuh kebutuhan kualitas dan efesiensi pelanggan. Selengkapnya"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/namaToko"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MAXIME STORE"
+            android:textSize="24sp"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/addToCartButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add to Cart"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+</ScrollView>
